@@ -1,103 +1,190 @@
-# Cara Praktek Teknologi yang Belum Dikuasai
+# Learning Roadmap for New Technologies
 
-Panduan langkah demi langkah untuk mempelajari teknologi baru secara praktis.
-
----
-
-## 1. TypeScript (untuk React nanti)
-
-**Praktek:**
-- Ubah file `.jsx` menjadi `.tsx`
-- Tambahkan tipe data untuk props dan state
-
-**Sumber belajar:**
-- Dokumentasi resmi TypeScript
-- Tutorial "TypeScript for React" di YouTube
+A practical step-by-step guide for learning new technologies through hands-on projects and real-world practice.
 
 ---
 
-## 2. Render, Netlify, Vercel (hosting otomatis)
+# Overview
 
-**Praktek:**
-- **Vercel / Netlify**: Tarik repository dari GitHub → deploy otomatis
-- **Render**: Bisa digunakan untuk deploy backend (Node.js, Python, Docker)
-
-> Jika belum pernah, ikuti langkah simpel dari dokumentasi masing-masing platform.
+This roadmap outlines the technologies I plan to learn and practice throughout my software development journey. The primary focus is building practical skills by creating projects rather than only studying theory.
 
 ---
 
-## 3. React (lanjutan)
+# 1. TypeScript (Preparation for React)
 
-**Praktek:**
-- Buat komponen kecil seperti:
-  - Daftar tugas (to-do list)
-  - Kalkulator sederhana
-  - Tampilkan data dari API
+## Practice
 
-**Target pemahaman:**
+- Convert `.jsx` files to `.tsx`.
+- Add type annotations for component props and state.
+- Learn basic interfaces and type aliases.
+
+## Learning Resources
+
+- Official TypeScript Documentation.
+- YouTube tutorials on **TypeScript for React**.
+
+---
+
+# 2. Deployment Platforms (Render, Netlify & Vercel)
+
+## Practice
+
+### Vercel / Netlify
+
+- Connect a GitHub repository.
+- Deploy applications automatically.
+- Configure automatic deployments after every push.
+
+### Render
+
+- Deploy backend applications such as:
+  - Node.js
+  - Python
+  - Docker-based applications
+
+> Follow the official documentation for each platform if you are using them for the first time.
+
+---
+
+# 3. React (Intermediate Learning)
+
+## Practice Projects
+
+- To-Do List
+- Simple Calculator
+- Weather Application
+- Display data from a REST API
+
+## Learning Objectives
+
 - `useState`
 - `useEffect`
 - Props
-- Event handling
+- Event Handling
+- Component Structure
+- Conditional Rendering
+- List Rendering
 
 ---
 
-## 4. Laravel (PHP framework)
+# 4. Laravel (PHP Framework)
 
-**Praktek:**
-- Ikuti tutorial "Laravel 11 dari nol"
-- Buat CRUD sederhana (contoh: daftar kontak)
+## Practice
 
-**Catatan:**
-Karena sudah bisa PHP native, Laravel akan terasa lebih mudah dipahami.
+- Follow a beginner-friendly Laravel tutorial.
+- Build a simple CRUD application (e.g., Contact Management).
 
----
+## Notes
 
-## 5. Numpy & Pandas (Python untuk data)
-
-**Praktek:**
-- **Numpy**: Operasi array / matriks sederhana
-- **Pandas**: Baca file CSV atau Excel, filter data
-
-**Cocok untuk:**
-- Latihan data analysis
-- Persiapan machine learning (nanti)
+Having a solid understanding of native PHP makes learning Laravel much easier because many core concepts are already familiar.
 
 ---
 
-## 6. Git (perdalam)
+# 5. NumPy & Pandas (Python for Data Analysis)
 
-**Sudah bisa:**
+## Practice
+
+### NumPy
+
+- Basic array operations
+- Matrix calculations
+- Mathematical functions
+
+### Pandas
+
+- Read CSV and Excel files
+- Filter and sort data
+- Data cleaning
+- Basic data analysis
+
+## Learning Goals
+
+- Data analysis fundamentals
+- Preparation for machine learning
+
+---
+
+# 6. Git (Advanced Version Control)
+
+## Current Skills
+
 - `git add`
 - `git commit`
 - `git push`
 - `git pull`
 
-**Lanjutan (nanti):**
-- Branch
-- Merge
-- Resolve conflict
-- Rebase
+## Next Topics
+
+- Branching
+- Merging
+- Resolving Merge Conflicts
+- Rebasing
+- Cherry-pick
+- Stashing
+- Tags
 
 ---
 
-## 7. Jest & Vitest (testing JavaScript)
+# 7. Jest & Vitest (JavaScript Testing)
 
-- **Jest** → untuk React / Node.js
-- **Vitest** → lebih cepat, cocok untuk Vite
+## Tools
 
-**Praktek:**
-- Buat fungsi sederhana (contoh: fungsi penjumlahan)
-- Tulis test menggunakan `expect`, `toBe()`, dll.
+- **Jest** — Popular testing framework for React and Node.js applications.
+- **Vitest** — Fast testing framework designed for Vite projects.
+
+## Practice
+
+- Create simple utility functions.
+- Write unit tests using:
+
+```javascript
+expect()
+toBe()
+toEqual()
+toContain()
+```
+
+## Goal
+
+Understand the fundamentals of unit testing and improve application reliability.
 
 ---
 
-## 📌 Catatan
+# Learning Strategy
 
-> Belajar secara bertahap, tidak perlu terburu-buru.  
-> Fokus pada pemahaman konsep, bukan sekadar menghafal sintaks.
+- Learn one technology at a time.
+- Build small projects to reinforce concepts.
+- Read the official documentation regularly.
+- Practice consistently instead of memorizing syntax.
+- Upload every completed project to GitHub as a portfolio.
 
 ---
 
-**Dibuat oleh:** Faris  
-**Tujuan:** Dokumentasi pribadi untuk percepatan belajar teknologi
+# Future Learning Goals
+
+After completing the technologies above, I plan to continue learning:
+
+- Docker
+- Kubernetes
+- CI/CD
+- Linux Administration
+- REST API Design
+- GraphQL
+- Redis
+- RabbitMQ
+- Microservices
+- System Design
+
+---
+
+# Notes
+
+Learning is a continuous process. The objective is to understand the underlying concepts through consistent practice rather than memorizing syntax. Building real projects is the most effective way to improve programming skills and gain practical experience.
+
+---
+
+# Author
+
+**Faris**
+
+This repository serves as a personal learning roadmap and documentation for mastering modern software development technologies through practical experience.
